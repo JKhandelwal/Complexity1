@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4d8ba0-90cb-425c-b968-65e7db670cee" name="Default" comment="" />
+    <list default="true" id="6d4d8ba0-90cb-425c-b968-65e7db670cee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/P1/BasicMultiplier..py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/P1/DoMatrices.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/P1/BasicMultiplierTest.class" afterPath="$PROJECT_DIR$/out/test/P1/BasicMultiplierTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/BasicMultiplierTest.java" afterPath="$PROJECT_DIR$/Tests/BasicMultiplierTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,63 +22,62 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46934983">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BasicMultiplierTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/BasicMultiplierTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="98" column="50" lean-forward="true" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BasicMultiplier.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/BasicMultiplier.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CSRSparseMatrixMultiplication.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/CSRSparseMatrixMultiplication.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="37" column="101" lean-forward="false" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
-                  <folding>
-                    <element signature="method#makeIntMatrix#0;class#CSRSparseMatrixMultiplication#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CSRObject.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/CSRObject.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-                  <folding>
-                    <element signature="method#CSRObject#0;class#CSRObject#0" expanded="false" />
-                    <element signature="method#CSRObject#1;class#CSRObject#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BasicMultiplierTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/BasicMultiplierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="155" column="42" lean-forward="true" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strassen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strassen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicMultiplier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BasicMultiplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSRSparseMatrixMultiplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSRSparseMatrixMultiplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="method#makeIntMatrix#0;class#CSRSparseMatrixMultiplication#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-465">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +91,21 @@
     <findStrings>
       <find>-1,</find>
       <find>getNumberCount</find>
+      <find>a</find>
+      <find>add</find>
+      <find>sub</find>
+      <find>currentTimeMillis</find>
     </findStrings>
+    <replaceStrings>
+      <replace>b</replace>
+      <replace>IntMatrix.add</replace>
+      <replace>IntMatrix.subtract</replace>
+      <replace>nanotime</replace>
+      <replace>nanoTime</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -101,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/GenerateMatrix.java" />
         <option value="$PROJECT_DIR$/src/CSRObject.java" />
         <option value="$PROJECT_DIR$/src/CSRSparseMatrixMultiplication.java" />
+        <option value="$PROJECT_DIR$/src/Strassen.java" />
         <option value="$PROJECT_DIR$/Tests/BasicMultiplierTest.java" />
       </list>
     </option>
@@ -133,8 +154,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,6 +193,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="P1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="P1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicMultiplierTest.doStuff">
+  <component name="RunManager" selected="JUnit.BasicMultiplierTest.compareTest">
     <configuration default="false" name="BasicMultiplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="P1" />
@@ -264,6 +299,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasicMultiplierTest" />
       <option name="METHOD_NAME" value="doStuff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicMultiplierTest.strassenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="P1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicMultiplierTest" />
+      <option name="METHOD_NAME" value="strassenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicMultiplierTest.compareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="P1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicMultiplierTest" />
+      <option name="METHOD_NAME" value="compareTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -481,16 +558,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.testCSR" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.doStuff" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.strassenTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.compareTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.doStuff" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.testCSR" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.compareTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.doStuff" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.strassenTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest.testCSR" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasicMultiplierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -509,35 +590,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 09m 13s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 01m 29s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 10m 29s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 07m 28s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 10m 36s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 15m 24s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 10m 55s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 22m 53s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 15m 23s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 26m 27s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 16m 10s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 28m 17s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 40m 14s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 28m 43s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 16h 40m 43s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 11h 48m 33s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 21h 16m 46s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 12h 22m 52s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicMultiplierTest_doStuff - 2018.03.01 at 21h 17m 42s.xml">
-      <configuration name="BasicMultiplierTest.doStuff" configurationId="JUnit" />
+    <history-entry file="BasicMultiplierTest_compareTest - 2018.03.02 at 14h 16m 17s.xml">
+      <configuration name="BasicMultiplierTest.compareTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -556,19 +637,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37790698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16788767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2808303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,12 +670,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Tests/BasicMultiplierTest.java</url>
-          <line>58</line>
-          <properties class="BasicMultiplierTest" method="doStuff" />
-          <option name="timeStamp" value="1" />
+          <line>108</line>
+          <properties class="BasicMultiplierTest" method="strassenTest" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/BasicMultiplierTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -817,29 +904,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoMatrices.py" />
     <entry file="file://$PROJECT_DIR$/src/IntMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        <state relative-caret-position="-465">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicMultiplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSRSparseMatrixMultiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="101" lean-forward="false" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
-          <folding>
-            <element signature="method#makeIntMatrix#0;class#CSRSparseMatrixMultiplication#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +924,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoMatrices.py">
+    <entry file="file://$PROJECT_DIR$/src/CSRSparseMatrixMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="method#makeIntMatrix#0;class#CSRSparseMatrixMultiplication#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.21.44.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.27.33.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.26.27.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.28.51.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.28.19.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.01.53.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.09.49.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="474" column="25" lean-forward="true" selection-start-line="474" selection-start-column="25" selection-end-line="474" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strassen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files/ComparisonTimes2018.03.02.11.51.01.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -864,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/BasicMultiplierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="98" column="50" lean-forward="true" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+        <state relative-caret-position="328">
+          <caret line="155" column="42" lean-forward="true" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

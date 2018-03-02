@@ -2,27 +2,19 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.chart.LineChart;
-import javafx.scene.chart.NumberAxis;
-import javafx.scene.chart.XYChart;
-import javafx.stage.Stage;
-
-
-
-
-
-
-
-import static org.junit.jupiter.api.Assertions.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 class BasicMultiplierTest {
     private int dimension;
     private double fraction;
     @BeforeEach
     void setUp() {
-        dimension = 5;
+        dimension = 4;
         fraction = 0.850;
     }
 
@@ -74,9 +66,9 @@ class BasicMultiplierTest {
 //        XYChart.Series series2 = new XYChart.Series();
 //        series2.setName("Faster");
 
-        for (int i= 10;i < 1000;i+=100) {
-            IntMatrix t = new IntMatrix(GenerateMatrix.getMatrix(i, fraction));
-            IntMatrix e = new IntMatrix(GenerateMatrix.getMatrix(i, fraction));
+//        for (int i= 10;i < 1000;i+=100) {
+            IntMatrix t = new IntMatrix(GenerateMatrix.getMatrix(dimension, fraction));
+            IntMatrix e = new IntMatrix(GenerateMatrix.getMatrix(dimension, fraction));
             CSRObject o = CSRSparseMatrixMultiplication.makeCSR(t);
 
             BasicMultiplier b = new BasicMultiplier();
@@ -92,14 +84,16 @@ class BasicMultiplierTest {
             System.out.println("Better Multiply time " + (time2 - time1));
             System.out.println("\n\n");
 
-            assert mat.equals(a);
+        System.out.println(mat.toString());
+        System.out.println(a.toString());
+//            assert mat.equals(a);
 
             //populating the series with data
 
 //            series2.getData().add(new XYChart.Data(i, (time2-time1)));
 
 
-        }
+//        }
 //        Scene scene  = new Scene(lineChart,800,600);
 //        lineChart.getData().add(series);
 //
@@ -108,6 +102,80 @@ class BasicMultiplierTest {
 
 
         System.out.println("It works!");
+    }
+
+
+    @Test
+    public void strassenTest() {
+        IntMatrix t = new IntMatrix(GenerateMatrix.getMatrix(8, fraction));
+        IntMatrix e = new IntMatrix(GenerateMatrix.getMatrix(8, fraction));
+
+        BasicMultiplier m = new BasicMultiplier();
+
+        IntMatrix res = m.multiply(t, e);
+        System.out.println(res);
+
+        IntMatrix strassen = Strassen.multiply(t, e);
+
+
+        System.out.println(strassen);
+        assert (res.equals(strassen));
+
+    }
+
+    @Test
+    public void compareTest() throws IOException {
+        try{
+            File f = new File("Files/" + "ComparisonTimes" + new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()) + ".csv");
+            BufferedWriter br = new BufferedWriter(new FileWriter(f));
+
+
+        for (int i =8;i < 3000;i*= 2) {
+            System.out.println(i);
+            long strassenTotal =0;
+            long CSRTotal =0;
+            long basicTotal =0;
+
+
+           for (int j =0;j < 10;j++) {
+
+               IntMatrix t = new IntMatrix(GenerateMatrix.getMatrix(i, fraction));
+               IntMatrix e = new IntMatrix(GenerateMatrix.getMatrix(i, fraction));
+
+               System.out.println("Started Basic " + j);
+               BasicMultiplier m = new BasicMultiplier();
+                long one = System.nanoTime();
+               IntMatrix res = m.multiply(t, e);
+               long two = System.nanoTime();
+               basicTotal += (two-one);
+
+               System.out.println("Started Strassen");
+                one = System.nanoTime();
+               IntMatrix strassen = Strassen.multiply(t, e);
+                two = System.nanoTime();
+               strassenTotal += (two-one);
+               assert res.equals(strassen);
+
+               System.out.println("Started CSR ");
+               one = System.nanoTime();
+               CSRObject o = CSRSparseMatrixMultiplication.makeCSR(t);
+               IntMatrix csr = CSRSparseMatrixMultiplication.multiply(e, o);
+               two = System.nanoTime();
+               CSRTotal += (two-one);
+               assert res.equals(csr);
+
+
+           }
+
+           br.write(i + "," + (basicTotal/10) + "," + (strassenTotal/10)+"," + (CSRTotal/10));
+           br.newLine();
+
+        }
+        br.close();
+        } catch(Exception e){
+            System.out.println("Borked");
+        }
+
     }
 
 
